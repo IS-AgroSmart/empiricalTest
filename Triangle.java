@@ -40,4 +40,11 @@ public class Triangle {
 			return range;
 		return this.getTriangleType();
 	}
+
+	public String describe(int a,int b, int c){
+		this.a=a;
+		this.b=b;
+		this.c=c;
+		return this.describe();
+	}
 }

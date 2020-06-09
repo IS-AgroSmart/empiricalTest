@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 /**
  * @author José Escobar
  *
@@ -28,7 +27,8 @@ public class empiricalTest {
 
 		reader.close();
 
-		System.out.println(triangle.describe());
+        System.out.println(triangle.describe());
+
 	}
 
 }
