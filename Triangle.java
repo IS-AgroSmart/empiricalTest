@@ -13,7 +13,7 @@ public class Triangle {
 		if ((a < 1) || (a > 200))
 			return "Value of a is not in the range of permitted values";
 		if ((b < 1) && (b > 200))
-			return "Value of a is not in the range of permitted values";
+			return "Value of b is not in the range of permitted values";
 		if ((c < 1) || (c > 200))
 			return "Value of c is not in the range of permitted values";
 		return null;
